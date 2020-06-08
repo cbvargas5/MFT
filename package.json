@@ -1,0 +1,11 @@
+{
+  "name": "mft",
+  "version": "1.0.0",
+  "description": "Nikki Beecher MFT web application",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Brian Vargas",
+  "license": "ISC"
+}
