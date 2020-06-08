@@ -1,11 +1,17 @@
 {
-  "name": "mft",
-  "version": "1.0.0",
-  "description": "Nikki Beecher MFT web application",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
-  "author": "Brian Vargas",
-  "license": "ISC"
+    "name": "mft",
+    "version": "1.0.0",
+    "description": "Nikki Beecher MFT web application",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server/index.js"
+    },
+    "author": "Brian Vargas",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^0.19.2",
+        "express": "^4.17.1",
+        "react": "^16.13.1",
+        "react-dom": "^16.13.1"
+    }
 }
