@@ -4,7 +4,8 @@
     "description": "Nikki Beecher MFT web application",
     "main": "index.js",
     "scripts": {
-        "start": "nodemon server/index.js"
+        "start": "nodemon server/index.js",
+        "build": "webpack -w"
     },
     "author": "Brian Vargas",
     "license": "ISC",
@@ -13,5 +14,13 @@
         "express": "^4.17.1",
         "react": "^16.13.1",
         "react-dom": "^16.13.1"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.10.2",
+        "@babel/preset-env": "^7.10.2",
+        "@babel/preset-react": "^7.10.1",
+        "babel-loader": "^8.1.0",
+        "webpack": "^4.43.0",
+        "webpack-cli": "^3.3.11"
     }
 }
