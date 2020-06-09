@@ -1,8 +1,11 @@
 import React from 'react';
+import NavBar from './NavBar.jsx'
 
 const App = () => {
   return (
-    <h1>MFT Nikki!</h1>
+    <div>
+      <NavBar />
+    </div>
   )
 }
 
