@@ -6,7 +6,9 @@ import Contact from './Contact.jsx'
 const App = () => {
   return (
     <div>
-      <NavBar />
+      <header>
+        <NavBar />
+      </header>
       <Contact />
     </div>
   )
