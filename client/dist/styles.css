@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Utility */
+
+
+/* NavBar */
+
+.navbar-wrapper {
+    background: #333;
+    height: 3rem;
+}
+
+.navbar-wrapper ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+.navbar-wrapper li {
+    padding: 1rem 3rem;
+}
+
+.navbar-wrapper li:hover {
+    background: #666363;
+    cursor: pointer;
+}

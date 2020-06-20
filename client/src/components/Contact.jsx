@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 
 const Contact = () => {
   return (
-    <div>
+    <section>
       <h1 className="contact-title">CONTACT</h1>
       <div className="contact-info-wrapper">
         <h2>Nikki Beecher</h2>
@@ -22,7 +22,7 @@ const Contact = () => {
           <button>Send</button>
         </form>        
       </div>
-    </div>
+    </section>
   )
 }
 
